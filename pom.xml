@@ -7,7 +7,40 @@
   <version>1.0-SNAPSHOT</version>
   <name>Java-Project</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
+  <parent>
+    <groupId>org.apache</groupId>
+    <artifactId>apache</artifactId>
+    <version>27</version>
+    <relativePath>../asf/pom.xml</relativePath>
+  </parent>
+  <properties>
+     <version>3.0 </version>
+    <javaVersion>8</javaVersion>
+    <classWorldsVersion>2.6.0</classWorldsVersion>
+    <commonsCliVersion>1.5.0</commonsCliVersion>
+    <mockitoVersion>3.2.0</mockitoVersion>
+    <maven.site.path>ref/4-LATEST</maven.site.path>
+    <project.build.outputTimestamp>2022-10-14T23:41:39Z</project.build.outputTimestamp>
+  </properties>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven</groupId>
+          <artifactId>modello-plugin-velocity</artifactId>
+          <version>${version}</version>
+        </plugin>
+    </plugins>
+  </build>
+    <repositories>
+    <repository>
+      <id>my-internal-site</id>
+      <url>https://myserver/repo</url>
+    </repository>
+  </repositories>
+
+  <dependencyManagement>
+    <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -15,4 +48,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+      </dependencyManagement>
+    <distributionManagement>
+      <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://your-host:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
+      <repository>
+        <id>nexus-releases</id>
+        <url>http://your-host:8081/repository/maven-releases/</url>
+      </repository>
+    </distributionManagement>
 </project>
