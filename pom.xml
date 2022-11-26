@@ -49,6 +49,7 @@
 			</execution>
 		</executions>
 	</plugin>
+	         </pluginManagement>
     </plugins>
   </build>
     <repositories>
