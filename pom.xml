@@ -26,32 +26,6 @@
     <maven.site.path>ref/4-LATEST</maven.site.path>
     <project.build.outputTimestamp>2022-10-14T23:41:39Z</project.build.outputTimestamp>
   </properties>
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-		<groupId>org.jacoco</groupId>
-		<artifactId>jacoco-maven-plugin</artifactId>
-		<version>0.8.2</version>
-		<executions>
-			<execution>
-				<goals>
-					<goal>prepare-agent</goal>
-				</goals>
-			</execution>
-			<!-- attached to Maven test phase -->
-			<execution>
-				<id>report</id>
-				<phase>test</phase>
-				<goals>
-					<goal>report</goal>
-				</goals>
-			</execution>
-		</executions>
-	</plugin>
-	         </pluginManagement>
-    </plugins>
-  </build>
     <repositories>
     <repository>
       <id>my-internal-site</id>
