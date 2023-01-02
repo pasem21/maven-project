@@ -10,8 +10,8 @@
 <pre>github url: https://github.com/techworldwithmurali/nodejs-application.git
           branch name:</pre>
 
-<h6>Step 2: Update the jfrog Artifactory details in pom.xml</h6>
-```
+
+```json
  <distributionManagement>
       <snapshotRepository>
         <id>jfrog-snapshots</id>
