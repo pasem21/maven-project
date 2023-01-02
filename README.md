@@ -16,8 +16,7 @@
   github url: https://github.com/techworldwithmurali/nodejs-application.git
   branch name:
 ```
-
-
+### Step 2: 
 ```xml
  <distributionManagement>
       <snapshotRepository>
@@ -51,7 +50,7 @@ mvn deploy
 ```
 ### Step 5: Verify whether artifact(war) is published or not in Jfrog Artifactory.
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/115227391/210243233-12497d72-52e7-4e7f-bb9d-eef7d6fadf99.png" alt="cli output"/>
+  <img width="400" src="" alt="cli output"/>
 </p>
 
 
