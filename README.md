@@ -1,7 +1,7 @@
 + <b>Author: Moole Muralidhara Reddy</br>
 + <b>Email:</b> techworldwithmurali@gmail.com</br>
-<b>Website:</b> techworldwithmurali.com , devopsbymurali.com</br>
-<b>Description:</b> Below are the steps outlined for manually building and pushing artifacts(war) to Jfrog Artifactory</br>
++ <b>Website:</b> techworldwithmurali.com , devopsbymurali.com</br>
++ <b>Description:</b> Below are the steps outlined for manually building and pushing artifacts(war) to Jfrog Artifactory</br>
 
 ## Manually - Build and Push to Jfrog Artifactory
 
