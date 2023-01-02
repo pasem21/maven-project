@@ -11,7 +11,7 @@
           branch name:</pre>
 
 
-```json
+```xml
  <distributionManagement>
       <snapshotRepository>
         <id>jfrog-snapshots</id>
