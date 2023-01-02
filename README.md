@@ -12,7 +12,7 @@
 
 <h6>Step 2: Update the jfrog Artifactory details in pom.xml</h6>
 ```
-  <distributionManagement>
+ <distributionManagement>
       <snapshotRepository>
         <id>jfrog-snapshots</id>
         <url>http://your-host:8081/repository/maven-snapshots/</url>
