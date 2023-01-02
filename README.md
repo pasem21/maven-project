@@ -55,7 +55,4 @@ mvn deploy
 </p>
 
 
-#### Congratulations. You have successfully Published the artifact(war) file in Jfrog repository.
-
-### Authour
-Moole Muralidhara Reddy
+#### Congratulations. You have successfully published the artifact(war) file in Jfrog repository.
