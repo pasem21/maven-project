@@ -3,8 +3,8 @@
 * [Block Elements](#block-elements)
 ## Prerequisites:
 + Git is installed
-* Maven is installed
-* Jfrog Artifactory is installed
++ Maven is installed
++ Jfrog Artifactory is installed
 
   ## Step 1: Clone the repository
   
