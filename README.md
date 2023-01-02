@@ -25,7 +25,21 @@
       </repository>
     </distributionManagement>
 ```
-<h6>Step 3: Update the jfrog credentials in settings.xml</h6>
+## Step 3: Update the jfrog credentials in settings.xml
+```xml
+<servers>
+    <server>
+      <id>jfrog-snapshots</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+    <server>
+      <id>jfrog-releases</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+```
 <h6>Step 4: Run the below command to push the artifacts to Jfrog Artifactory.</h6>
 mvn deploy
 <h6>Step 5: Verify whether artifact(war) is published or not in Jfrog Artifactory</h6>
