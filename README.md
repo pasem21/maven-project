@@ -7,7 +7,8 @@
   <b>3. Jfrog Artifactory is installed<b><br>
 
   <h6>Step 1: Clone the repository</h6>
-```sh
+  
+```xml
   github url: https://github.com/techworldwithmurali/nodejs-application.git
           branch name:
 ```
