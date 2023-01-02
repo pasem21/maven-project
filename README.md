@@ -1,6 +1,6 @@
 
-# Manually - Build and Push to Jfrog Artifactory
-## Prerequisites:
+## Manually - Build and Push to Jfrog Artifactory
+### Prerequisites:
 + Git is installed
 + Maven is installed
 + Jfrog Artifactory is installed
