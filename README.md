@@ -1,6 +1,7 @@
-### Authour
-+ Moole Muralidhara Reddy
-+ techworworldwithmurali
+# Author: Moole Muralidhara Reddy
+# Email: techworldwithmurali@gmail.com
+# Website: techworldwithmurali.com , devopsbymurali.com
+# Description: Below are the steps outlined for manually building and pushing artifacts(war) to Jfrog Artifactory
 
 ## Manually - Build and Push to Jfrog Artifactory
 
