@@ -1,5 +1,9 @@
+### Authour
+Moole Muralidhara Reddy
+techworworldwithmurali
 
 ## Manually - Build and Push to Jfrog Artifactory
+
 ### Prerequisites:
 + Git is installed
 + Maven is installed
@@ -50,4 +54,7 @@ mvn deploy
 </p>
 
 
-#### Congratulations. You have successfully Published the artifact(war) file in Jfrog repository
+#### Congratulations. You have successfully Published the artifact(war) file in Jfrog repository.
+
+### Authour
+Moole Muralidhara Reddy
