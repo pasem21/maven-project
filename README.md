@@ -2,9 +2,9 @@
 <b>Manually - Build and Push to Jfrog Artifactory</b>
 * [Block Elements](#block-elements)
 ## Prerequisites:
-  <b>1. Git is installed</b><br>
-  <b>2. Maven is installed</b><br>
-  <b>3. Jfrog Artifactory is installed<b><br>
+* Git is installed
+* Maven is installed
+* Jfrog Artifactory is installed
 
   ## Step 1: Clone the repository
   
