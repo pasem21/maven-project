@@ -40,10 +40,10 @@
     </server>
   </servers>
 ```
-## Step 4: Run the below command to push the artifacts to Jfrog Artifactory.</h6>
+## Step 4: Run the below command to push the artifacts to Jfrog Artifactory.
 ```sh
 mvn deploy
 ```
-<h6>Step 5: Verify whether artifact(war) is published or not in Jfrog Artifactory</h6>
+## Step 5: Verify whether artifact(war) is published or not in Jfrog Artifactory.
 
-Congratulations. You have successfully Published the artifact(war) file in Jfrog repository
+#### Congratulations. You have successfully Published the artifact(war) file in Jfrog repository
