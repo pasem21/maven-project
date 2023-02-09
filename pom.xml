@@ -5,7 +5,7 @@
   <artifactId>Java-Projects</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Java-Sample Project</name>
+  <name>Java-Project</name>
   <url>http://maven.apache.org</url>
   <parent>
     <groupId>org.apache</groupId>
